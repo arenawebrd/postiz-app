@@ -12,7 +12,7 @@ services:
     volumes:
       - postgres-volume:/var/lib/postgresql/data
     ports:
-      - 5432:5432
+      - 5434:5434
   gitroom-redis:
     image: redis:7.2
     container_name: gitroom-redis
